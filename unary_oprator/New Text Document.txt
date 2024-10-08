@@ -1,0 +1,17 @@
+
+// . . Wap to check whether a character is vowel or not.
+import java.util.Scanner;
+
+class PassFail{
+	public static void main(String []args){
+
+Scanner scanner = new Scanner(System.in);
+System.out.print("Enter a Number: ");
+             char ch = input.charAt(0);
+	String res;
+	res=('a'||'e'||'i'||'o'||u||'A'||'E'||'I'||'O'||'U')?"Vowel":"Consonant";
+	System.out.println(res);
+				
+}
+ 		
+			}
