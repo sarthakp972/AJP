@@ -1,7 +1,7 @@
 //Atm program
 import java.util.Scanner;
 
-public class Demo {
+public class javaAtm {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
