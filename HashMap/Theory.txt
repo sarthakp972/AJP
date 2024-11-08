@@ -1,0 +1,37 @@
+           import java.util.HashMap;
+                          
+                            HashMap<Strings,Integer> hm=new HashMap<>();
+
+                       put(key,value);  //for insert
+
+                       get(key);  // : This method is used to retrieve the value associated with a specified key from the HashMap.// value not find so its give null
+                      
+                       containsKey(key) // This method checks whether a given key exists in the HashMap.
+                       remove(key);//This method removes the mapping for a specified key from the HashMap.
+
+when we print HashMap so it is not neccesary to data has unorder; 
+
+//size
+//clear -Empty all map 
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+Itration On HashMap 
+
+Set<Integer> key =hm.KeySet(); // we created that set for itration all keys are store in this set
+
+for( Integer k : key){
+    print("Keys "+ k)
+    print("values "+ hm.get(k));
+}
+/////////////////////////////////////////////////////////////////////////////////
+HashSet -> to store in unique value 
+set--> collection of unique elements
+->no duplicates
+->unorderd
+->null is allowed
+->HashSet HashMap se impliment hoti hai in java 
+ 
+HashSet<integer> hs =new HashSet<>();
+add(key); insert the key 
+contains(key); key Exixt or not 
+remove(key);remove the key 

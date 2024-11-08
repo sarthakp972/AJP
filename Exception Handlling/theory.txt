@@ -1,0 +1,23 @@
+throw : it is used to throw an error.
+	throw new Exceptionclassname("message");
+
+throws : it is used with methods which can throw an exception and this exception is not handled inside the method. so we can say when we have an unhandled exception in a method then we have to include throws keyword along with exception class name to inform the caller method about the exception so that it can handle this exception.
+
+public void add()throws NullPointerException
+{
+}
+Custom Exception :  
+it is user defined exception class. if you want to define an exception class of your own, then we can also create an exception child class in our project.
+it is possible by  the help of inheritance. 
+we need to create a new child class of the exception class in order to create a custom exception.
+Syntax:-
+class MyException extends Exception
+{
+	public MyException(String msg)
+	{
+		super(msg);
+
+		other instruction/call methods
+	}
+}
+////////////////////////////////////////////////////////////
